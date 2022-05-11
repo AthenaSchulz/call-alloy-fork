@@ -44,7 +44,7 @@ library
       Language.Alloy.RessourceNames
       Language.Alloy.Ressources
       Language.Alloy.Types
-      Paths_call_alloy
+      Paths_call_alloy_fork
   hs-source-dirs:
       src
   ghc-options: -Wall -Wincomplete-uni-patterns -Wincomplete-record-updates -Widentities -Wredundant-constraints
@@ -83,7 +83,7 @@ test-suite call-alloy-test
       Language.Alloy.Ressources
       Language.Alloy.Types
       Language.Alloy.CallSpec
-      Paths_call_alloy
+      Paths_call_alloy_fork
   hs-source-dirs:
       src
       test
@@ -91,7 +91,7 @@ test-suite call-alloy-test
   build-depends:
       base >=4.12 && <5
     , bytestring >=0.10.4 && <0.12
-    , call-alloy
+    , call-alloy-fork
     , containers ==0.6.*
     , directory ==1.3.*
     , extra ==1.7.*
